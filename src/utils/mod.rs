@@ -1,3 +1,7 @@
+use std::fmt::Debug;
+
+pub mod log;
+
 pub mod pairing_heap;
 
 pub fn set_panic_hook() {
