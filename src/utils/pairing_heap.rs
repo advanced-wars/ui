@@ -200,6 +200,7 @@ mod pop {
         assert_eq!(heap.pop(), None);
     }
 }
+
 #[cfg(test)]
 mod push {
     use wasm_bindgen_test::{console_log, wasm_bindgen_test};
@@ -310,8 +311,3 @@ mod len {
         assert_eq!(heap.len(), numbers.len() - 2);
     }
 }
-
-// #[test]
-// mod node {
-//
-// }
